@@ -1,0 +1,60 @@
+.nav{
+    background-color: rgb(186, 120, 240);
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    border-top: 2px solid black;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0.6rem;
+}
+
+.nav a{
+    height: 70px;
+    width: 70px;
+    background-color: rgba(202, 116, 236, 0.742);
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover{
+    background-color: rgba(204, 108, 248, 0.9);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav img{
+    width: 70%;
+}
+
+.nav-carrito{
+    position: relative;
+}
+
+.div-item{
+    background-color: rgb(165, 39, 238);
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    font-size: 15px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    top: 1px;
+    right: -8px;
+}
